@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# 🌟 Auracheck - Personalized Wellness Journey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Auracheck** is a comprehensive wellness and mental health support platform designed to help users track their emotional well-being, manage stress, improve sleep, and connect with a supportive community. Powered by **Gemini AI**, it provides personalized insights and a supportive chatbot experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
+Access the live application here: **[https://login-406b1.web.app](https://login-406b1.web.app)**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📊 Holistic Wellness Tracking
+- **Mood Tracker**: Log your emotional state daily and visualize trends over time.
+- **Sleep Monitor**: Track sleep duration and consistency to optimize rest.
+- **Stress Management**: Monitor stress levels and identify potential triggers.
+- **Journaling**: Secure, private space for reflections and thoughts.
 
-### `npm test`
+### 🤖 AI-Powered Assistant (Aurabot)
+- Leveraging **Gemini 1.5 Flash** for empathetic and supportive conversations.
+- Personalized wellness suggestions based on your logged data.
+- Robust retry logic and optimized for stable performance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🤝 Community & Support
+- **Support Groups**: Join and interact with others in dedicated wellness communities.
+- **Discussion Feeds**: Share experiences and support fellow members.
+- **Real-time Chat**: Connect with community members in live discussions.
 
-### `npm run build`
+### 📈 Smart Insights
+- Automated analysis of your wellness data.
+- Identifying correlations (e.g., how sleep affects mood).
+- Actionable suggestions for improving daily well-being.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend**: React.js, Tailwind CSS, Framer Motion
+- **Backend / DB**: Firebase Firestore, Firebase Authentication
+- **Hosting**: Firebase Hosting
+- **AI Engine**: Google Gemini AI (1.5 Flash)
+- **Icons**: React Icons (Ri, Fi, etc.)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Installation & Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/NikhilMamilla/Auracheck-v2.git
+   cd auracheck
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Environment Variables**:
+   Create a `.env` file in the root directory and add your Gemini API Key:
+   ```env
+   REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here
+   ```
 
-## Learn More
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🏗 Deployment
 
-### Code Splitting
+The project is configured for **Firebase Hosting**. To deploy:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Build the project**:
+   ```bash
+   npm run build
+   ```
 
-### Analyzing the Bundle Size
+2. **Deploy to Firebase**:
+   ```bash
+   firebase deploy
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🛡 Security & Stability Updates (v2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Firestore Security Rules**: Implemented granular, production-ready rules for data protection.
+- **Optimized Indexing**: Deployed 9 composite indexes to ensure high-performance queries.
+- **Stability Fixes**: Resolved infinite render loops and optimized API usage with exponential backoff retries.
+- **Model Migration**: Migrated to `gemini-1.5-flash` for enhanced reliability and usage quotas.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👤 Author
 
-### Deployment
+**Nikhil Mamilla**
+- [GitHub](https://github.com/NikhilMamilla)
+- [Project Repository](https://github.com/NikhilMamilla/Auracheck-v2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Supporting your mental wellness journey, one step at a time.
