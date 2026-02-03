@@ -5,13 +5,13 @@ import { getFirestore, enableIndexedDbPersistence, disableNetwork, enableNetwork
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "***REMOVED***",
-  authDomain: "login-406b1.firebaseapp.com",
-  projectId: "login-406b1",
-  storageBucket: "login-406b1.firebasestorage.app",
-  messagingSenderId: "221901652611",
-  appId: "1:221901652611:web:68729a683ad954f4d291b6",
-  measurementId: "G-H03GXZWQT2"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
